@@ -41,8 +41,8 @@ export default function Characters(props) {
                     </div>
                 ))} 
             </div>
-            <span className="back-home" onClick={resetCharacters}>Volver al home</span>
+            <span className = "back-home" onClick={resetCharacters}>Volver al home</span>
         </div>
     );
-    
+
 }
